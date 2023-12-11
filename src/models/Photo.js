@@ -27,6 +27,10 @@ const photoSchema = new mongoose.Schema({
         type: String,
         required: [true, 'Description is required'],
     },
+    votes: {
+        type: Array,
+
+    },
     owner: {
         type: mongoose.Types.ObjectId,
         ref: 'User',

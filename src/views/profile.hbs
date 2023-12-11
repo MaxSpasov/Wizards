@@ -10,12 +10,12 @@
         </div>
         <div class="card-body">
           <span class="tag tag-teal">Species: Beast</span>
-          <h4>Name: Thestral</h4>
+          <h4>Name: {{photo.name}}</h4>
           <div class="user">
             <div class="user-info">
-              <h5>Author: Alex Smith</h5>
+              <h5>Author: {{user.username}}</h5>
               <small>Rating of votes: 3</small>
-              <a href="#" class="details_btn">Details</a>
+              <a href="/photos/{{_id}}/details" class="details_btn">Details</a>
 
             </div>
           </div>
